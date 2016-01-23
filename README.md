@@ -13,7 +13,6 @@ Not contained within the script is the process to download and unzip the data fi
 	unzip ("dataset.zip", exdir = "./data")
 
 
-
 The run_analysis.R script does the following:
 1)	Creates data sets for each of the following files:
 	a.	subject_train.txt
