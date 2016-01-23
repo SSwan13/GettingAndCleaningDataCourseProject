@@ -5,6 +5,7 @@ This README file for the Getting and Cleaning Data Course Project explains what 
 There is one script, run_analysis.R, for this project.
 
 Not contained within the script is the process to download and unzip the data files used for this project.  This process needs to be completed before running the run_analysis.R script.  
+
 	setwd("I:/Data Science Certification/3_Getting_And_Cleaning_Data/Week_4")
 	if(!file.exists("./data")) {dir.create("./data")}
 	fileUrl <- “https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
